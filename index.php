@@ -96,7 +96,7 @@
 								<b>负载</b> <?=$value->load_average?> <br/>
 								<b>内存</b> <?php echo $ram_use."MB/".$ram_total."MB"; ?> <br/>
 								<b>磁盘</b> <?php echo $disk_usage."GB/".$disk_total."GB"; ?> <br/>
-								<b>网络</b> ↑<?php echo $network_tx."kb/s"; ?>/↓<?php echo $network_rx."kb/s"; ?>
+								<b>网络</b> ↑<?php echo $network_tx."kb/s"; ?> ↓<?php echo $network_rx."kb/s"; ?> <br/>
 								<b>可用性</b> <?php echo $value->availability; ?> </p>
 						</div>
 					</article>
