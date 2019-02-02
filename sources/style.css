@@ -1,0 +1,50 @@
+#header, .ajaxload a, .post, .comment-body, .respond #textarea, .textbutton, .thumb img, .post-content img, .avatar {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.thumb img, .post-content img, .post, .respond #textarea, .textbutton, .comment-body, .avatar {
+    border-radius: 5px;
+}
+.textbutton .text {
+    border: 0px;
+}
+.ajaxload a, .ajaxload .loading:hover, .ajaxload .loading {
+    padding: 5px 20px;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+code {
+    color: #489eb9;
+}
+#comments, .breadcrumbs, .tags {
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.copyright {
+    color: #999;
+    font-size: .875em;
+    line-height: 1.5;
+}
+.post-near {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+#comments {
+    border-top: 0px;
+    padding-top: 0px;
+}
+.post {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 16px;
+}
+.post-title {
+    margin-top: 0px;
+}
+.more {
+    margin-bottom: 0px;
+}
