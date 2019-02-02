@@ -6,7 +6,8 @@
 	*/
 	
 	/* Config */
-	$key = "xxxxxxxx";
+	$key = "xxxx";
+	$pass = "xxxx";
 	
 	/* Function */
 	function GetInformation($key){
@@ -24,6 +25,10 @@
 	}
 	
 	/* Do it! */
+	if ($_GET['pass']!=$pass) {
+		header("HTTP/1.1 403 Forbidden");
+		die();
+	}
 	$data = GetInformation($key);
 	file_put_contents("info.json",$data);
 	
