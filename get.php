@@ -31,4 +31,6 @@
 	}
 	$data = GetInformation($key);
 	file_put_contents("info.json",$data);
+	header("HTTP/1.1 204 No Content");
+	exit();
 	
