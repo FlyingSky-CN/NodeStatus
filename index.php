@@ -14,6 +14,7 @@
 	
 	/* Get Data */
 	$data = json_decode(file_get_contents("info.json"));
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -97,7 +98,8 @@
 								<b>内存</b> <?php echo $ram_use."MB/".$ram_total."MB"; ?> <br/>
 								<b>磁盘</b> <?php echo $disk_usage."GB/".$disk_total."GB"; ?> <br/>
 								<b>网络</b> ↑<?php echo $network_tx."kb/s"; ?> ↓<?php echo $network_rx."kb/s"; ?> <br/>
-								<b>可用性</b> <?php echo $value->availability; ?> </p>
+								<b>可用性</b> <?php echo $value->availability; ?>
+							</p>	
 						</div>
 					</article>
 					<?php

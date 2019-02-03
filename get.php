@@ -6,8 +6,8 @@
 	*/
 	
 	/* Config */
-	$key = "xxxx";
-	$pass = "xxxx";
+	$key = "z68dd2aa4TfSqsV5l4jmjvwcRSX48NBRdqFONyPJLbkC7KPG";
+	$pass = "echo";
 	
 	/* Function */
 	function GetInformation($key){
